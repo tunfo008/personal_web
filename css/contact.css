@@ -1,0 +1,171 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 微軟正黑體;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.background {
+  background-image: url(./common/background.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+  /* min-width: 100vw; */
+}
+
+
+.title{
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  display: inline-block;
+  margin: 5% 0% 5% 0%;
+}
+.title_1{
+  display: inline-block;
+}
+.title_1 h1{
+  font-size: 40px;
+  font-weight: 500;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+.title img:first-child{
+  transform: translate(0px, -25px);
+}
+.title img:last-child{
+  transform: translate(0px, 15px);
+}
+/* -----------------------------------聯絡我們---------------------- */
+
+.contain_{
+  height: 100%;
+  width: 55%;
+  margin: 0 auto;
+  padding-bottom: 10%;
+}
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    box-shadow:1px 1px 2px gray;  
+}
+div.container input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px;
+    resize: vertical;
+}  
+
+input[type=submit] {
+    
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    background-color: rgb(184, 8, 8);
+}
+
+input[type=submit]:hover {
+  background-color: #851616;
+}
+@media screen and (max-width:1199px) {
+  .contain_{
+    width: 55%;
+  }
+}
+@media screen and (max-width:991px) {
+  .contain_{
+    width: 70%;
+  }
+}
+@media screen and (max-width:767px) {
+    .contain_{
+    width: 100%;
+  }
+}
+@media screen and (max-width:576px) {
+  .contain_{
+    width: 100%;
+  }
+}
+/* ----------------------------information-------------------------- */
+
+.card{
+  width: 75%;
+  margin: 0 auto;
+  padding-bottom: 10%;
+}
+
+.card_information{
+  width: 100%;
+  text-align: center;
+  position: relative;
+}
+.card_text{
+  margin-bottom: 30px;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 30px;
+}
+
+.card_text img{
+  text-align: center;
+  width: 400px;
+  margin: 0 auto;
+}
+.card_text p{
+  font-size: 16px;
+  text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.3);
+}
+div#googlemap{
+  width: 80%;
+  box-shadow:1px 1px 2px gray;
+  border-radius: 4px; 
+  overflow: hidden;
+  margin: 0 auto;
+}
+@media screen and (max-width:1199px) {
+  .card{
+    width: 75%;
+  }
+  div#googlemap{
+    margin: 0 auto;
+    width: 100%;
+  }
+}
+@media screen and (max-width:991px) {
+  .card{
+    width: 100%;
+  }
+  div#googlemap{
+    margin: 0 auto;
+    width: 100%;
+  }
+}
+@media screen and (max-width:767px) {
+  .card{
+    width: 100%;
+  }
+  div#googlemap{
+    margin: 0 auto;
+    width: 100%;
+  }
+}
+@media screen and (max-width:576px) {
+  .card{
+    width: 100%;
+  }
+  .card_text img{
+    width: 100%;
+  }
+  div#googlemap{
+    width: 100%;
+  }
+}

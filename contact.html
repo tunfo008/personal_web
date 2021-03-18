@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/contact.css">
+  <link rel="stylesheet" href="./css/common.css">
+  <link rel="stylesheet" href="./aos/aos.css">
+  <title>聯絡我們</title>
+  <style>
+    .nav_list a.contact_top {
+      color: rgb(107, 4, 4);
+      /* box-shadow: 0 50px 5px rgba(0, 0, 0, 0.15) inset; */
+    }
+  </style>
+</head>
+
+<body>
+  <div class="background">
+    
+     <!-- header768以上區塊 -->
+     <header id="header">
+
+      <div class="head_up">
+        <ul class="head_up_list">
+          <li><a href="#"><img src="./css/common/car.png" alt="購物車"></a></li>
+          <li>
+            <input type="text" class="search" placeholder="搜尋..">
+            <button class="btn_serch" type="submit">送出</button>
+          </li>
+        </ul>
+      </div>
+
+      <a href="./index.html"><img src="./css/common/LOGO.png" class="logo"></a>
+
+      <div class="nav">
+        <ul class="nav_list">
+          <li><a href="./news.html">最新消息</a></li>
+
+          <li>
+            <div class="list">產品型錄▼
+              <ul class="selection">
+                <li><a href="./product5.html">床</a></li>
+                <hr>
+                <li><a href="./product5.html">櫃子</a></li>
+                <hr>
+                <li><a href="./product5.html">神桌</a></li>
+                <hr>
+                <li><a href="./product5.html">客廳組</a></li>
+                <hr>
+                <li><a href="./product5.html">桌椅組</a></li>
+                <hr>
+                <li><a href="./product5.html">其他</a></li>
+              </ul>
+            </div>
+          </li>
+
+          <li><a href="./refresh.html">翻新服務</a></li>
+          <li><a href="./about.html">關於大森</a></li>
+          <li><a href="./contact.html">聯絡我們</a></li>
+
+        </ul>
+        <hr class="style-one" />
+      </div>
+    </header>
+    <!-- header768以上區塊 -->
+
+
+
+    <!-- header768以下區塊 -->
+
+    <header class="header767">
+      <div class="container767">
+
+        <a href="index.html"><img src="./css/common/LOGO.png" alt="" class="logo767"></a>
+
+        <div class="button_container" id="toggle">
+          <span class="top"></span><span class="middle"></span><span class="bottom"></span>
+        </div>
+        <div class="overlay" id="overlay">
+          <nav class="overlay-menu">
+            <img src="./css/common/LOGO.png" alt="">
+
+            <ul>
+              <li>
+                <input type="text" class="search" placeholder="搜尋..">
+                <button class="btn_serch" type="submit">送出</button>
+              </li>
+              <hr>
+              <li>
+                <a href="./news.html" class="mobile_header_title">最新消息</a>
+              </li>
+              <hr>
+              <li>
+                <a href="#" class="mobile_header_title" id="mobile_header_title2">產品型錄▼</a>
+                <hr>
+                <ul class="mobile_two_ul">
+                  <li>
+                    <a href="./product5.html">床</a>
+                  </li>
+                  <li>
+                    <a href="./product5.html">櫃子</a>
+                  </li>
+                  <li>
+                    <a href="./product5.html">神桌</a>
+                  </li>
+                  <li>
+                    <a href="./product5.html">客廳組</a>
+                  </li>
+                  <li>
+                    <a href="./product5.html">桌椅組</a>
+                  </li>
+                  <li>
+                    <a href="./product5.html">其他</a>
+                  </li>
+                </ul>
+              </li>
+              <hr>
+              <li>
+                <a href="./refresh.html" class="mobile_header_title mobile_header_title2">翻新服務</a>
+              </li>
+              <hr>
+              <li>
+                <a href="./about.html" class="mobile_header_title mobile_header_title2">關於我們</a>
+              </li>
+              <hr>
+              <li>
+                <a href="./contact.html" class="mobile_header_title mobile_header_title2">聯絡我們</a>
+              </li>
+              <hr>
+              <li>
+                <a href="#"><img src="./css/common/car.png" alt="購物車"></a>
+              </li>
+              <hr>
+
+
+            </ul>
+          </nav>
+
+        </div>
+      </div>
+    </header>
+    <!-- header768以下區塊 -->
+
+
+    <div class="title" data-aos="zoom-in" data-aos-offset="0" data-aos-duration="1000" data-aos-once="true">
+      <img src="./css/common/bg-top-left.png" alt="">
+      <span class="title_1">
+        <h1>聯絡我們</h1>
+      </span>
+      <img src="./css/common/bg-bottom-right.png" alt="">
+    </div>
+
+    <div class="contain_">
+      <div class="container">
+        <form action="action_page.php">
+
+          <label for="fname">姓名</label>
+          <input type="text" id="fname" name="firstname" placeholder="你的姓名..">
+
+          <label for="lname">Email</label>
+          <input type="text" id="lname" name="lastname" placeholder="XXXXXX@mail.com">
+
+          <label for="country">地區</label>
+          <select id="country" name="country">
+            <option value="australia">台北市</option>
+            <option value="">基隆市</option>
+            <option value="">桃園市</option>
+            <option value="">新竹縣</option>
+            <option value="">苗栗縣</option>
+            <option value="">台中市</option>
+            <option value="">南投縣</option>
+            <option value="">彰化縣</option>
+            <option value="">雲林縣</option>
+            <option value="">嘉義縣</option>
+            <option value="">台南市</option>
+            <option value="">高雄市</option>
+            <option value="">屏東縣</option>
+            <option value="">宜蘭縣</option>
+            <option value="">花蓮縣</option>
+            <option value="">台東縣</option>
+            <option value="">澎湖縣</option>
+            <option value="">金門縣</option>
+            <option value="">連江縣</option>
+            <option value="">海外</option>
+          </select>
+
+          <label for="subject">內容</label>
+          <textarea id="subject" name="subject" placeholder="" style="height:200px"></textarea>
+
+          <input type="submit" value="送出">
+
+        </form>
+      </div>
+    </div>
+
+    <div class="card" data-aos="zoom-out-down" data-aos-offset="0" data-aos-duration="1000" data-aos-once="true">
+      <div class="card_information">
+
+        <div class="card_text">
+          <!-- <h2>大森傢俱</h2> -->
+          <img src="./css/common/LOGO.png" alt="">
+          <br>
+          <p>聯絡電話：04-752-2707莊先生</p>
+          <p>聯絡信箱：sunshineboy1369@yahoo.com.tw</p>
+          <p>地址：彰化市南安里彰鹿路182號</p>
+          <p>營業時間：AM：9:00~PM：9:00</p>
+        </div>
+
+        <div id="googlemap">
+          <iframe class="map"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3643.3717712311272!2d120.5089365824792!3d24.05320922472307!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x346947dbfcf3e25d%3A0x7f59ba74ce997d79!2zNTAw5b2w5YyW57ijTm_lvbDpub_ot68xODLomZ8!5e0!3m2!1szh-TW!2stw!4v1581177598124!5m2!1szh-TW!2stw"
+            width="100%" height="400" frameborder="0" style="border:0;" allowfullscreen="">
+          </iframe>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- /* -------footer--------- */ -->
+    <footer class="footer_">
+      <a href="https://www.facebook.com/LuGangDaSen/?epa=SEARCH_BOX" target="_blank"><img
+          src="./css/common/facebook.png" alt=""></a>
+      <hr>
+      <div class="footer_text">
+        <a href="./news.html">最新消息</a>
+        <a href="./product.html">產品型錄</a>
+        <a href="./refresh.html">翻新服務</a>
+        <a href="./about.html">關於大森</a>
+        <a href="./contact.html">聯絡我們</a>
+      </div>
+      <div class="bottom">Copyright &copy; 2020 Chai All rights reserved</div>
+    </footer>
+  </div>
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="./aos/aos.js"></script>
+  <!-- aos -->
+  <script>
+    AOS.init();
+  </script>
+  <!-- aos -->
+
+  <!-- 漢堡選單 -->
+  <script>
+    $('#toggle').click(function () {
+      $(this).toggleClass('active');
+      $('#overlay').toggleClass('open');
+    });
+  </script>
+  <!-- 漢堡選單 -->
+</body>
+
+</html>
